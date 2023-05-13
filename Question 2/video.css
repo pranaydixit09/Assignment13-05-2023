@@ -1,0 +1,64 @@
+/* Style the video player */
+.player {
+    max-width: 750px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style the video element */
+  .viewer {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the player controls */
+  .player__controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Style the progress bar */
+  .progress {
+    flex: 1;
+    height: 15px;
+    margin: 0 10px;
+    position: relative;
+    background: #eee;
+
+  }
+  
+  .progress__filled {
+    width: 0;
+    height: 100%;
+    background: #ffc600;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+  }
+  
+  /* Style the player buttons */
+  .player__button {
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  /* Style the volume and playback speed sliders */
+  .player__slider {
+    width: 80px;
+    height: 15px;
+    margin: 0 10px;
+  }
+  
+  /* Style the active state of the player button */
+  .toggle {
+    transform: rotate(45deg);
+  }
+  
